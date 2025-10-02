@@ -54,12 +54,17 @@ If using MySQL and the database/user do not exist yet, create them (example):
 Then set in `.env`:
 ```
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=task_manager
+
 DB_USERNAME=task_user
+
 DB_PASSWORD=strong_password_here
-```
+
 
 
 # Sanctum / Session for SPA auth
